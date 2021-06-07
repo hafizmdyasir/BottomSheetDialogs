@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="BottomSheetDialogsBaseTheme" parent="Theme.MaterialComponents.DayNight">
+
+        <item name="colorPrimary">#C32847</item>
+        <item name="colorAccent">#66BB6A</item>
+
+    </style>
+
+</resources>

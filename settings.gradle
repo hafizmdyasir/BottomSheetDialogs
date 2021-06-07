@@ -1,0 +1,3 @@
+rootProject.name = "SheetDialogSample"
+include ':app'
+include ':BottomSheetDialogs'

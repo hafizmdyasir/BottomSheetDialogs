@@ -1,0 +1,12 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="Theme.SheetDialogSample" parent="Theme.MaterialComponents.DayNight.NoActionBar">
+        <!-- Primary brand color. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryVariant</item>
+        <!-- Secondary brand color. -->
+        <item name="colorSecondary">@color/colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/colorSecondaryVariant</item>
+        <item name="android:statusBarColor">?android:attr/windowBackground</item>
+    </style>
+</resources>

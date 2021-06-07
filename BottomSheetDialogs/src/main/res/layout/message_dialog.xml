@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    android:layout_gravity="center_horizontal"
+    android:layout_height="wrap_content"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="@string/title"
+        android:id="@+id/title"/>
+
+    <View
+        android:background="?attr/colorAccent"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="8dp"
+        android:layout_height="1dp"
+        android:id="@+id/underline"/>
+
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Body2"
+        tools:text="This is the dialog's message text view. You can include your own message here."
+        android:justificationMode="inter_word"
+        android:layout_marginBottom="12dp"
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:id="@+id/message"
+        android:textSize="15sp"
+        />
+
+    <LinearLayout
+        tools:ignore="ButtonStyle"
+
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:layout_marginTop="8dp"
+        android:id="@+id/buttons"
+        android:gravity="end">
+
+        <Button
+            style="@style/Widget.MaterialComponents.Button.TextButton"
+            android:text="@android:string/cancel"
+            android:layout_marginEnd="12dp"
+
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:id="@+id/cancel"/>
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/done"
+            android:id="@+id/done"/>
+
+    </LinearLayout>
+
+</LinearLayout>
