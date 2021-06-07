@@ -2,11 +2,24 @@
 > A lightweight Android library to create BottomSheetDialogs with more functionalities than Android\'s own implementation.
 
 ## Implementation in Gradle
-Coming soon...
+The implementation for this library is straightforward. First of all, add the Jitpack respository to your build.gradle file
+```
+allprojects {
+		repositories {
+			...
+			maven { url 'https://jitpack.io' }
+		}
+	}
+```
+Next, include this library like so:
+```
+implementation 'com.github.HafizYasir:BottomSheetDialogs:1.0.1'
+```
+Replace 1.0.1 with whatever the latest version is.
 ## How To
 You can treat each component of the app (see [list of available components](#listOfAvailable)) as a BottomSheetDialogFragment. Each component has a factory method you can use to create an instance and then call the `BottomSheetDialog.show()` method, passing in a `FragmentManager` as the first argument.
 
-The factory methods in each component have various arguments that are self-explanatory. An example is included in this ReadMe file too.
+The factory methods in each component have various arguments that are self-explanatory. An example is included in this ReadMe file too. Also, there is a sample app included.
 
 ## Example
 If you want to create an indeterminate progress dialog, use the `ProgressSheet.getInstance()` method from the `ProgressSheet` component. This method takes in the following arguments:
