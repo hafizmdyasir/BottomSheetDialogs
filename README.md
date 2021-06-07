@@ -41,6 +41,8 @@ mProgressSheet.publishProgress(progressValue);
 ```
 A similar strategy may be followed for displaying a message dialog.
 
+## Screenshot
+[![Screenshot](https://github.com/HafizYasir/BottomSheetDialogs/blob/master/Screenshot_20210607-170454_Fluid%20Dialer.jpg "Screenshot")](http://https://github.com/HafizYasir/BottomSheetDialogs/blob/master/Screenshot_20210607-170454_Fluid%20Dialer.jpg "Screenshot")
 
 ## <span id=listOfAvailable>Available Components</span>
 For now, I only had the time to create a progress dialog and a message dialog. I am hoping to add other options in the near future.
