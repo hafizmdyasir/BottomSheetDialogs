@@ -37,7 +37,7 @@
 
         android:id="@+id/progress_value"
         android:layout_marginBottom="4dp"
-        tools:text="70/100"/>
+        android:text="70/100"/>
 
     <TextView
         style="@style/TextAppearance.MaterialComponents.Body2"
